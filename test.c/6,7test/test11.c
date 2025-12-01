@@ -1,18 +1,18 @@
-// 문제 8. 별 계단 형태 출력: printStars(int n)
 #include <stdio.h>
 
 void printStars(int n) {
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n+i+1; j++) {
-            if(j<n-i){
+        for (int j = 0; j < n; j++) {
+            if (j < n - i - 1) {
                 printf(" ");
-            }else{
+            } else {
                 printf("i");
             }
         }
         printf("\n");
     }
 }
+
 
 int main(void) {
     printStars(5);

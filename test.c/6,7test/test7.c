@@ -3,11 +3,11 @@
 
 int sumDigits(int n) {
     int sum = 0;
-    while (n > 0) {
+    while (n > 0) {     // 숫자가 0이 될 때까지 반복
         sum += n % 10;  // 마지막 자리 더하기
         n /= 10;        // 한 자리 줄이기
     }
-    return sum;
+    return sum;         // 합계 반환
 }
 
 int main(void) {

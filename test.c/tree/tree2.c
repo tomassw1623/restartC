@@ -1,17 +1,5 @@
 #include <stdio.h>
 
-/*
-  이 프로그램은 이런 모양을 출력합니다.
-
-      i
-     ii
-    iii
-   iiii
-  iiiii
-
-  → 왼쪽에 빈칸(공백)이 있고, 오른쪽에 i가 계단처럼 쌓입니다.
-*/
-
 void print2(int n) {
     // i는 "몇 번째 줄인가?"입니다. (1줄~n줄)
     for (int i = 1; i <= n; i++) {

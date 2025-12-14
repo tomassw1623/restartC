@@ -1,18 +1,5 @@
 #include <stdio.h>
 
-/*
-  이 프로그램은 이런 모양을 출력합니다.
-
-      i
-     iii
-    iiiii
-   iiiiiii
-  iiiiiiiii
-
-  → 가운데 정렬된 삼각형(트리)입니다.
-  → 위에서부터 i 개수가 1, 3, 5, 7, 9 ... 이렇게 홀수로 늘어납니다.
-*/
-
 void print5(int n) {
     // i는 "몇 번째 줄인가?"를 나타냅니다. (1 ~ n)
     for (int i = 1; i <= n; i++) {
